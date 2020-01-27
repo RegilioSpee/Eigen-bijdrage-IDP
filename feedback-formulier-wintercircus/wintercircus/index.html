@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Feedback formulier</title>
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- Font link playfair display -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font link roboto -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="contact-title">
+      <h1>
+        Feedback formulier voor onze interactieve ruimte
+      </h1>
+    </div>
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-form-handler.php">
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Jouw naam..."
+          required
+        />
+        <br />
+        <input
+          name="email"
+          type="email"
+          class="form-control"
+          placeholder="Jouw email..."
+          required
+        />
+        <br />
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Wat vond u in 1 zin zelf van deze installatie?"
+          row="4"
+          required
+        ></textarea>
+        <br />
+        <input
+          type="submit"
+          class="form-control submit"
+          value="Verstuur bericht"
+        />
+      </form>
+    </div>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Winter<span>Circus</span></h3>
+
+        <p class="footer-company-name">MV4A, MD2B, MD2A RV2B &copy; 2019</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>
+            <span>Contactweg 36, 1014 AN Amsterdam</span> Mediacollege Amsterdam
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:contact@regiliospee.nl">info@renewstudios.nl</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Contact</span>
+        </p>
+
+        <div class="footer-icons">
+          <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+          <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+          <a
+            target="_blank"
+            href="https://github.com/RegilioSpee/feedback-formulier"
+            ><i class="fa fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: #ECD2A8;
+    }
+    
+    .raak-aan {
+      z-index: -3;
+      width: 100%;
+    }
+    
+    div .modal_image {
+        width: 78vw;
+      height: 81vh;
+        background: url("papier.png") no-repeat center;
+        padding: 0;
+      margin: 0;
+      border-radius: 2%;
+    }
+    
+    
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 50px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      background-color: none;
+      margin: auto;
+      padding: 20px;
+      width: 80%;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #000000;
+      float: right;
+      font-size: 78px;
+      font-weight: bold;
+      margin-right: 1%;
+      margin-top: 3%;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    
+    #titel-tekst {
+        padding: 40px;
+      font-weight: 700;
+      font-size: 58px;
+      color: #964B00;
+      font-family: 'Playfair Display', serif;
+    }
+    
+    
+    #tekst {
+        font-size: 30px;
+        width: 80%;
+        margin-left: 5%;
+        color: black;
+    }
+    
+    
+    .fa, .fab, .fad, .fal, .far, .fas {
+        font-size: 89px;
+        color: white;
+           position: absolute;
+        top: 48%;
+        left: 14%;
+    }
+    
+    
+    .fas .fa-map-marker-alt2 {
+        position: absolute;
+        top: 39%;
+        left: 12%;
+      }
+    
+    
+      .verder-gaan {
+      background-color: #964B00    ;
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 22px;
+      margin: 4px 2px;
+      font-weight: bold;
+      float: right;
+      margin-right: 40px;
+      margin-top: 100px;
+      border-radius: 35px;
+      }
+    
+      .verder-gaan:hover {
+        cursor: pointer;
+      }
+    
+      #footer-wintercircus {
+        width:100%;
+      height:24px;
+      padding-top:20px;
+      background:#ECD2A8;
+      color:#964B00;
+      font-weight:bold;
+      font-size:24px;
+      text-align:center;
+      position:absolute; 
+      bottom:0;          
+      left:0; 
+    }
+    
+    
+    a.terug-gaan {
+      background-color: #964B00    ;
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 22px;
+      margin: 4px 2px;
+      margin-left: 40px;
+      font-weight: bold;
+      float: left;
+      border-radius: 35px;
+      margin-top: 100px;
+    }
+
+    #brief-foto {
+        float: right;
+        height: 300px;
+        width: 300px;
+        margin-top: -100px;
+    }
+
+    @keyframes bounce { 
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50px); }
+    }
+    .fas.fa-map-marker-alt {
+      animation: bounce 0.8s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
